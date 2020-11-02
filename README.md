@@ -11,5 +11,20 @@ fastest growing programming languages.
 * Extensive support libraries;
 * Predominantly used in Machine Learning and Data Analysis.
 
+## Pycharm SetUp
+### Python 3.7
+## Python Variables
+
+### What is a Variable
+A placeholder to store data.
+
+### Pseudocoding
+A translation of your code. 
+Makes it easier for you and others to read the code. In particular, non-technical people may need
+ 
+* Dynamically Types Langauges
+* Overwrieting varables 
+* Getting user input from the command line
+
 
  
