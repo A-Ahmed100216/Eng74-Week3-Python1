@@ -13,8 +13,8 @@ fastest growing programming languages.
 
 ## Pycharm SetUp
 ### Python 3.7
-## Python Variables
 
+## Python Variables
 ### What is a Variable
 A placeholder to store data.
 
@@ -22,9 +22,38 @@ A placeholder to store data.
 A translation of your code. 
 Makes it easier for you and others to read the code. In particular, non-technical people may need
  
-* Dynamically Types Langauges
-* Overwrieting varables 
-* Getting user input from the command line
+### Types of Variables in Python
+1. Strings - Characters encased in " " or ' '. Consistency is key, pick one type of quote and stick to this.   
+```name="Aminah"```
+2. Integer - A whole number   
+```age = 23```
+3. Float - A number with a decimal   
+```travel_allowance = 2.4```
+4. Boolean - A True or False variable   
+```1 = True```
+
+### How can we take user data?
+We can use a method called input() to get data from user:
+```
+username = input('Please enter your name: ') # Getting user data using the input method. This value is then assigned as a variable called name.
+print(username)
+```
+### How can we find out the type of variable?
+We can use the type() method which gives us the data type.
+```
+print(type(name)) ## This should output string
+print(type(age)) ## This should ouput integer
+print(type(travel_allowance)) ## This should output float
+```
+
+### Overwriting variables:
+If we use the same variable name, it will be rewritten to
+reflect the most recent variable name. For example:
+```
+colour = "Blue"
+colour = "Green"
+print(colour) # The output will be Green as this was the most recent assignment
+```
 
 
  

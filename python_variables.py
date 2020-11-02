@@ -35,3 +35,12 @@ print(type(name)) ## This should output string
 print(type(age)) ## This should ouput integer
 print(type(travel_allowance)) ## This should output float
 
+#Overwrtiting variables:
+# If we use the same variable name, it will be rewritten to
+#reflect the most recent variable name. for example
+colour = "Blue"
+colour = "Green"
+print(colour) # The output will be Green as this was the most recent assignment
+
+
+
