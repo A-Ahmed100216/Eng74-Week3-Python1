@@ -247,11 +247,13 @@ set1={"Item1","Item2","Item3"}
 ```
 
 ## Dictionaries
-Known as arrays in other languages
-Another way of managing date but more dynamically
-Consist of key value pairs used to stora and manage data.
-Syntax: We use {} brackets to store dictionaries
-Dict{"key":"value"}
-Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
-Dictionaries are ordered by keys
+* Known as arrays in other languages
+* Another way of managing date but more dynamically
+*Consist of key value pairs used to store and manage data.
+*Syntax: We use {} brackets to store dictionaries
+```python
+Dict={"key":"value"}
+```
+*Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
+*Dictionaries are ordered by keys
  
