@@ -1,11 +1,4 @@
-# Dictionaries
-# Known as arrays in other languages
-# Another way of managing date but more dynamically
-# Consist of key value pairs used to stora and manage data.
-#  Syntax: We use {} brackets to store dictionaries
-#  Dict{"key":"value"}
-#  Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
-# Dictionaries are ordered by keys
+
 # Let's create a dictionary
 devops_students={
     "key":"value",

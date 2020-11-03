@@ -11,7 +11,7 @@ fastest growing programming languages.
 * Extensive support libraries;
 * Predominantly used in Machine Learning and Data Analysis.
 
-## Pseudocoding
+## Pseudocode
 A translation of your code. 
 Makes it easier for you and others to read the code. In particular, non-technical people may need comments to understand what the code does.
 ## Python Variables
@@ -39,7 +39,7 @@ print(username)
 We can use the type() method which gives us the data type.
 ```python
 print(type(name)) ## This should output string
-print(type(age)) ## This should ouput integer
+print(type(age)) ## This should output integer
 print(type(travel_allowance)) ## This should output float
 ```
 
@@ -127,8 +127,8 @@ It is important to note, indexes start at 0.
 
 ```python
 greet= "Hello World!"
-print(greet[0]) # Prints the charaacer at index 0 i.e H
-print(greet[0:5])# Prints the range of charcaters from index 0 up to but not including index 5.
+print(greet[0]) # Prints the character at index 0 i.e H
+print(greet[0:5])# Prints the range of characters from index 0 up to but not including index 5.
 print(greet[-1]) # Can also work in reverse to get the last letter
 
 # ## len can be used to get the length of a string
@@ -171,6 +171,87 @@ print(sample_text.upper())
 print(sample_text.lower())
 ```
 
+# Collections
+Collections in Python include lists, tuples, dictionaries and sets.
+## Lists
+* In everyday life we commonly write shopping lists which contain everything we wish to purchase. 
+* In python, a list is simply a collection of data.
+* Python lists are enclosed in **square brackets**:
+ ```python
+list = ["item1","item2","item3"]
+```
+* Lists are **mutable** i.e we can add, remove, change an item.
+* A list can contain multiple data types, including other lists. For example:
+```python
+list1=["string1", 2, 3.45, True, "string2", 96, ["hello","world"]]
+```
 
+### Indexing 
+* **Indexing starts with 0** and represents an item in the list.
+* Syntax:
+```
+list_name[index]
+```
+* We can also access items from the end of the list using a negative index:
+```python
+list_name[-1] # This retrieves the last item in the list.
+```
+* Indexing can be used to get a range of items. The start, stop and step can be specified, seperated by colons i.e.
+```python
+list_name[2:5] # This includes items from index 2 up to (but not including) index 5
+```
+* A colon can be used to get everything up to a certain range i.e
+```python
+list_name[1:] # Returns items at index 1 to end of the list.
+list_name[:2] # Returns items from the start up to but not including index 2. 
+```
 
+### Managing Lists
+As mentioned, lists are mutable, therefore can be changed. 
+* Add items to the end of the list using append()
+```python
+shopping_list = ["apple", "milk", "bread"]
+shopping_list.append("eggs") # We can add eggs to the end of shopping list
+``` 
+* Remove items using the remove method:
+```python 
+shopping_list.remove("apple") # Removes apple from the shopping list
+```
+* The pop method can be used to remove the last item from the list
+```shopping_list.pop()```
+
+* Replacing items - we put the index we wsh to change in square brackets and set it to a new value.
+```python
+shopping_list[1]="fruits" # This replaces the item at index 1 (milk) with fruits.
+```
+
+## Tuples
+* Tuples are **immutable** lists - cannot be changed.
+* Use cases - NI number, DOB, place of birth, ethnicity - these are things we cannot change
+* We use () to declare a tuple
+* Example:
+```python
+tuple=("item1","item2","item3")
+```
+* As with lists, we can index by following the tuple name with square brackets.
+```python
+tuple[index]
+```
+## Sets and frozen sets
+* Sets are unordered. 
+* They are used for data which we need to store but are not worried about retrieval. 
+* Sets are rarely used 
+* Syntax: We use {} for sets. For example:
+```python
+set1={"Item1","Item2","Item3"}
+```
+
+## Dictionaries
+Known as arrays in other languages
+Another way of managing date but more dynamically
+Consist of key value pairs used to stora and manage data.
+Syntax: We use {} brackets to store dictionaries
+Dict{"key":"value"}
+Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
+Dictionaries are ordered by keys
  

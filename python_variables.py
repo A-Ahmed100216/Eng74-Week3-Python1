@@ -1,7 +1,7 @@
 # Python Variables - Practice
 
 # Creating a variable called name to store user name.
-name="Aminah"
+name="Mina"
 # Print is a built-in method used to print the variable, name, to the console
 print(name)
 
