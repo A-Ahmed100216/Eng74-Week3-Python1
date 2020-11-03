@@ -16,7 +16,7 @@ devops_students={
 }
 print(type(devops_students))
 # we can use the key as an index to access values.
-print(devops_students['name']) #returns the value of name i.e Mina
+print(devops_students['name']) #returns the value of name i.e Aminah
 print(devops_students["lessons_completed"])
 print(devops_students.keys()) # only returns the keys
 print(devops_students.values()) # Only returns the values
