@@ -42,27 +42,39 @@
 
 #Task: Create a mixed data type list of 7 items
 # dispaly type of data
-# add, delte, replace, pop
+# add, delete, replace, pop
 # Use indexing to print list in reverse order
 
-mix_list=[1,3.14,"raspberry","pi",True,42,False]
-print(mix_list)
-print(type(mix_list))
-print(type(mix_list[0]),type(mix_list[1]),type(mix_list[2]), type(mix_list[3]), type(mix_list[4]), type(mix_list[5]), type(mix_list[6]))
+# mix_list=[1,3.14,"raspberry","pi",True,42,False]
+# print(mix_list)
+# print(type(mix_list))
+# print(type(mix_list[0]),type(mix_list[1]),type(mix_list[2]), type(mix_list[3]), type(mix_list[4]), type(mix_list[5]), type(mix_list[6]))
+#
+# # Add an item
+# mix_list.append("pie")
+# print(mix_list)
+# # Remove an item
+# mix_list.remove(False)
+# print(mix_list)
+# # Replace an item
+# mix_list[5]=72
+# print(mix_list)
+# # Use pop to remove the last item
+# mix_list.pop()
+# print(mix_list)
+#
+# # Print in reverse
+# print(mix_list[-1], mix_list[-2], mix_list[-3], mix_list[-4], mix_list[-5], mix_list[-6])
+# print(mix_list[::-1])
 
-# Add an item
-mix_list.append("pie")
-print(mix_list)
-# Remove an item
-mix_list.remove(False)
-print(mix_list)
-# Replace an item
-mix_list[5]=72
-print(mix_list)
-# Use pop
-mix_list.pop()
-print(mix_list)
 
-# Print in reverse
-print(mix_list[-1], mix_list[-2], mix_list[-3], mix_list[-4], mix_list[-5], mix_list[-6])
+# Tuples
+## Tuples are immutable lists - cannot be changed
+# Use cases - NI number, DOB, place of birth, ethnicity - these are things we cannot change
+# We use ()to declare a tuple
+short_list=("paracetemol", "eggs", "milk","supermalt")
+#print(type(short_list))
+#short_list[1]="fruits" # This will give us a type error as it is not possible to change tuples.
+print(short_list[1])
+
 
