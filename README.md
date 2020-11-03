@@ -254,6 +254,6 @@ set1={"Item1","Item2","Item3"}
 ```python
 Dict={"key":"value"}
 ```
-*Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
-*Dictionaries are ordered by keys
+* Any type of data can be stored in a dictionary i.e string, integers, lists, tuples etc.
+* Dictionaries are ordered by keys
  
